@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b75bb;
+    margin: 0;
+    padding: 0;
+}
+
+.idioma {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 12px;
+}
+.idioma select {
+    background-color: #1b75bb;
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.logo {
+    text-align: center;
+    padding: 30px 0;
+}
+.logo img {
+    width: 160px;
+    height: auto;
+}
+
+.formulario {
+    width: 430px;
+    margin: -20px auto 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    color: #1b75bb;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.obligatorio {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 6px;
+    margin-top: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+}
+.row input {
+    width: 45%;
+}
+
+.boton input {
+    width: 100%;
+    background-color: #1b75bb;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.condiciones {
+    font-size: 11px;
+}
+.condiciones a {
+    color: #1b75bb;
+    text-decoration: none;
+}

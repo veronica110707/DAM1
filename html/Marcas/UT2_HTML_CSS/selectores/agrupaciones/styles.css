@@ -1,0 +1,11 @@
+/*Selecotr universal*/
+*{
+    margin: 5px;
+    /*Establecemos un margen de 5px*/
+}
+
+/*Selector de elemento*/
+li:first-of-type {
+    font-style: italic;
+    color: darkviolet;
+}

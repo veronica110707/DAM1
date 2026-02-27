@@ -1,0 +1,28 @@
+.formulario {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 100px rgba(0,0,0,0.15);
+}
+
+.bienvenida {
+ background-color: #1f2d3d;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-size: 28px;
+            font-weight: bolder;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 13px;
+    color: gray
+}

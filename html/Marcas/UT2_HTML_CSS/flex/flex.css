@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "LOL LOL Minecraft Wii-Party"
+    "LOL LOL Rocket-League GTA-VI"
+    "F1-2025 Roblox Roblox GTA-VI";
+}
+
+.grid-container div{
+    border: solid;
+    text-align: center;
+}
+
+.grid-container div.LOL {
+    grid-area: LOL;
+}

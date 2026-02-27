@@ -1,0 +1,43 @@
+* {
+    margin:5px; 
+    /*Establecemos un margen de 5px*/
+}
+    /*Selector de elemento*/
+h1 {
+    color:rgb(50,50,50);
+    font-style: italic;
+}
+
+td {
+    border-style: solid;
+    border-color: black;
+}
+/*Selector de identificados*/
+#introduccion { 
+    border-style: dotted;
+    border-color:rgb(200,20,20);
+    padding:2;
+    /*Establecemos un espacio entre el contenido y su borde de 2em*/
+}
+
+/*Selectores de clase*/
+.positivo{
+    color:green;
+    font-weight: bolder;
+}
+
+.negativo{
+    color:red;
+    font-weight:bolder;
+}
+
+/*Selectores de atributo*/
+input[type] {
+    background-color: rgb(126, 144, 126);
+    height: 25px;
+}
+
+input[type] {
+    color:rgb(8, 37, 84);
+    font-weight: bolder;
+}

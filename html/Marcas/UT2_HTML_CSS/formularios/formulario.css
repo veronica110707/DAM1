@@ -1,0 +1,17 @@
+.formulario{
+    width: 50%;
+    margin: 10xp auto;
+    background-color: rgb(190, 206, 223);
+}
+
+.formulario > p{
+    font-weight: bolder;
+}
+
+p > input{
+    background-color: rgb(142, 210, 210);
+}
+
+.formulario select {
+    background-color: bisque;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+body {
+    background-color: cadetblue!important;
+}
+
+h1 {
+    font-family: Emilys Candy;
+    color: #FFFFFF;
+}
+
+li {
+    text-decoration: underline;
+}

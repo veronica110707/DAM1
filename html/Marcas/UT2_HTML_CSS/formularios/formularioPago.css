@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 700px;
+    margin: 40px auto;
+    border: 2px solid #4f6b7a;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+fieldset {
+    border: 1px solid #4f6b7a;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.profesion {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select {
+    margin-top: 4px;
+    padding: 5px;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.botones input {
+    padding: 8px 15px;
+    margin: 0 10px;
+}
+
+.nota {
+    color: red;
+    font-size: 0.9em;
+}

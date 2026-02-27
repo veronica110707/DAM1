@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Ejemplo formularios</title>
+        <link rel="stylesheet" type="text/css" href="formulario.css" />
+    </head>
+	<body>
+        <p>Únete a Tuenti</p>
+        
+        <div class="formulario login">
+            <form name="login" action="respuesta.html" method="post">
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="cajaNombre"/>
+                    <input type="text" id="apellidos" name="cajaApellidos"/>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="cajaEmail"/>
+                </p>
+                <p>
+                    <label for="pass">Contraseña</label>
+                    <input type="password" id="pass" name="cajaPass"/>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar" name="botonenv"/>
+                </p>
+            </form>
+        </div>
+
+    </body>
+</html>
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de pago</title>
+    <link rel="stylesheet" href="formularioPago.css">
+</head>
+<body>
+
+<form class="contenedor" action="/pagoGoya" method="post">
+    <h2>FORMULARIO DE PAGO</h2>
+    <p class="nota">(Los campos obligatorios se han marcado con *)</p>
+
+    <fieldset class="infoContacto">
+        <legend>Información de contacto</legend>
+            <fieldset class="profesion">
+                <legend>Profesión</legend>
+                <label>
+                    <input type="radio" name="profesion" value="Profesor"> Profesor/a
+                </label>
+
+                <label>
+                    <input type="radio" name="profesion" value="Estudiante" checked> Estudiante
+                </label>
+
+                <label>
+                    <input type="radio" name="profesion" value="Otro"> Otro
+                </label>
+            </fieldset>
+
+        <label>Nombre *</label>
+        <input type="text" name="nombre" required>
+
+        <label>Correo *</label>
+        <input type="email" name="correo" required>
+
+        <label>Número de teléfono *</label>
+        <input type="tel" name="telefono"
+               pattern="[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}"
+               required>
+
+        <label>Contraseña *</label>
+        <input type="password" name="password" required>
+    </fieldset>
+
+    <fieldset class="infoPago">
+        <legend>Información de pago</legend>
+
+        <label>Tipo de tarjeta:</label>
+        <select name="tipo_tarjeta">
+            <option>Visa</option>
+            <option>Mastercard</option>
+            <option>American Express</option>
+        </select>
+
+        <label>Número de tarjeta *</label>
+        <input type="text" name="num_tarjeta" required>
+
+        <label>Fecha de caducidad *</label>
+        <input type="date" name="caducidad" min="2023-12-31" required>
+
+        <label>Método de pago preferido:</label>
+        <select name="metodo_pago">
+            <option>Tarjeta de crédito</option>
+            <option>Paypal</option>
+            <option>Bizum</option>
+            <option>Transferencia</option>
+        </select>
+    </fieldset>
+
+    <fieldset class="direccion">
+        <legend>Añadir nueva dirección</legend>
+        
+        <label>Tipo de via:</label>
+        <select name="tipo_via">
+            <option>Calle</option>
+            <option>Avenida</option>
+            <option>Via</option>
+        </select>
+
+        <label>Dirección:</label>
+        <input type="text" name="direccion" placeholder="Pablo Neruda">
+
+        <label>Tipo de via:</label>
+        <select name="tipo_via">
+            <option selected disabled>Elige la población</option>
+            <option>Madrid</option>
+            <option>Torrejon</option>
+            <option>Cobeña</option>
+            <option>Mostoles</option>
+        </select>
+
+        <label>Observaciones:</label>
+        <input type="text" name="observaciones" placeholder="Introduzca observaciones">
+
+        
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Política de privacidad</legend>
+
+        <label>
+            <input type="checkbox" name="condiciones" required>
+            He leído y acepto las Condiciones Generales de contratación y la Política de privacidad.
+        </label>
+
+        <label>
+            <input type="checkbox" name="newsletter">
+            NO quiero recibir newsletters ni comunicaciones comerciales de GOYAZON.
+        </label>
+    </fieldset>
+
+    <div class="botones">
+        <input type="submit" value="VALIDAR EL PAGO">
+        <input type="reset" value="CANCELAR">
+    </div>
+</form>
+
+</body>
+</html>

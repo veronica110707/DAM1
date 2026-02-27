@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Únete a Tuenti</title>
+    <link rel="stylesheet" href="formulario1.css">
+</head>
+
+<body>
+
+    <div class="idioma">
+    <select>
+        <option value="es">Español</option>
+        <option value="en">Inglés</option>
+    </select>
+</div>
+
+    <div class="logo">
+        <img src="logo.jpg">
+    </div>
+
+    <div class="formulario">
+        <p class="titulo">Únete a Tuenti</p>
+        <p class="obligatorio">Todos los campos son obligatorios</p>
+
+        <form action="respuesta.html" method="post">
+            <div class="row">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="apellidos" placeholder="Apellidos">
+            </div>
+
+            <input type="email" name="email" placeholder="Email">
+
+            <div class="sexo">
+                <label>Sexo:</label>
+                <label><input type="radio" name="sexo"> Hombre</label>
+                <label><input type="radio" name="sexo"> Mujer</label>
+            </div>
+
+            <p>
+                <label>Fecha de nacimiento</label><br>
+                <select>
+                    <option>Día</option>
+                    <option>1</option><option>2</option><option>3</option>
+                    <option>4</option><option>5</option><option>6</option>
+                    <option>7</option><option>8</option><option>9</option>
+                    <option>10</option><option>11</option><option>12</option>
+                    <option>13</option><option>14</option><option>15</option>
+                    <option>16</option><option>17</option><option>18</option>
+                    <option>19</option><option>20</option><option>21</option>
+                    <option>22</option><option>23</option><option>24</option>
+                    <option>25</option><option>26</option><option>27</option>
+                    <option>28</option><option>29</option><option>30</option>
+                    <option>31</option>
+                </select>
+
+                <select>
+                    <option>Mes</option>
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembre</option>
+                </select>
+
+                <select>
+                    <option>Año</option>
+                    <option>2026</option>
+                    <option>2025</option>
+                    <option>2024</option>
+                    <option>2023</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Contraseña</label><br>
+                <input type="password" name="pass">
+            </p>
+
+            <p>
+                <label>Número de móvil</label><br>
+                <select>
+                    <option>+34E</option>
+                </select>
+                <input type="text" name="movil">
+            </p>
+
+            <p class="condiciones">
+                <input type="checkbox">
+               <span>
+                Aceptas las 
+                <a href="http://www.ticarte.com" target="_blank">Condiciones de uso</a> 
+                y la <a href="http://www.ticarte.com" target="_blank">Política de privacidad</a> 
+                de Tuenti y que Tuenti te envíe comunicaciones. Lee un resumen en el 
+                <a href="http://www.ticarte.com" target="_blank">Decálogo de las Condiciones de uso</a>.
+            </span>
+            </p>
+
+            <p class="boton">
+                <input type="submit" value="¡Disfruta de Tuenti!">
+            </p>
+
+        </form>
+    </div>
+
+</body>
+</html>

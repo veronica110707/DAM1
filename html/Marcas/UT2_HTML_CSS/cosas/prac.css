@@ -1,0 +1,37 @@
+* {
+    margin: 5px;;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.ships li:nth-child(1) { 
+    font-style: italic;
+    font-size: x-large;
+    color: gainsboro;
+}
+
+.ships li:nth-child(2) {
+    font-size: large;
+    color: greenyellow;
+}
+
+table {
+    border-style: dotted;
+    border-width: 1ex;
+    border-color: palevioletred;
+}
+
+#Bienvenidos {
+    font-weight:bolder;
+    color: cornflowerblue;
+}
+
+.Textaco {
+    width: 80%;
+	margin: 20px;
+	padding: 25px;
+    background-color: #DD1E64;
+	
+}
